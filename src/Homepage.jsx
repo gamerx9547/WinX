@@ -39,7 +39,7 @@ const Homepage = () => {
     </div>
 
     {/* Mobile Background */}
-    <div className="block bg-black lg:hidden h-screen bg-contain bg-no-repeat" style={{backgroundImage: `url('./src/Images/mobileBg.png')`}}>
+    <div className="block bg-black lg:hidden h-screen bg-contain z-10 bg-no-repeat" style={{backgroundImage: `url('./src/Images/mobileBg.png')`}}>
         {/* Content for mobile */}
         {/* <div className=' py-20'>
 
@@ -50,7 +50,7 @@ const Homepage = () => {
 <div className=' py-10 px-5'>
   <button>
 
-  <img src={Btn} className='animate-wiggle'></img>
+  <img src={Btn} className='animate-wiggle z-20'></img>
   </button>
 
 </div>

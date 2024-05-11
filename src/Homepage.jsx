@@ -1,5 +1,4 @@
 
-
 import { Player } from 'video-react';
 import ImageExp from './Images';
 const {Btn,Play,bg} = ImageExp;
@@ -50,16 +49,16 @@ const Homepage = () => {
 <div className=' py-10 px-5'>
   <button>
 
-  <img src={Btn} className='animate-wiggle z-20'></img>
+  <img src={Btn} className='animate-wiggle'></img>
   </button>
 
 </div>
-{/* <div className=' bg-white '>
+<div className=' bg-white '>
 <Player autoPlay={true} playsInline fluid={true}>
       <source src={Play} />
     </Player>
 
-</div> */}
+</div>
 
 
        

@@ -1,10 +1,12 @@
-import React from 'react'
+
 
 import { Player } from 'video-react';
+import ImageExp from './Images';
+const {Btn,Play,bg} = ImageExp;
 const Homepage = () => {
   return (
    <>
-  <div className=" bg-black hidden lg:block h-full bg-cover bg-no-repeat" style={{backgroundImage: `url('./src/Images/mobileBg.png')`}}>
+  <div className=" bg-black hidden lg:block h-full bg-cover bg-no-repeat" style={{backgroundImage: `url(${bg})`}}>
         {/* Content for mobile */}
         <div className=' py-20'>
 
@@ -21,14 +23,15 @@ const Homepage = () => {
 </div>
 <div className=' bg-white '>
 <Player autoPlay={true} playsInline fluid={true}>
-      <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" />
+      <source src="./Images/Play.mp4" />
     </Player>
 
 </div>
-<div className='py-10 px-5'>
-  <div className='bg-amber-300 py-6 active:bg-yellow-600 text-center text-3xl rounded-full text-white font-bold'>
-    CLICK HERE
-  </div>
+<div className=' py-10 px-5'>
+  <button>
+
+  <img src={Btn} className='animate-wiggle'></img>
+  </button>
 
 </div>
 
@@ -47,13 +50,13 @@ const Homepage = () => {
 <div className=' py-10 px-5'>
   <button>
 
-  <img src='./src/Images/btn.png' className='animate-wiggle'></img>
+  <img src={Btn} className='animate-wiggle'></img>
   </button>
 
 </div>
 <div className=' bg-white '>
 <Player autoPlay={true} playsInline fluid={true}>
-      <source src="./src/Images/Play.mp4" />
+      <source src={Play} />
     </Player>
 
 </div>

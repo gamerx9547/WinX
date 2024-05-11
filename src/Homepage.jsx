@@ -48,6 +48,7 @@ const Homepage = () => {
 </div>
 <div className=' py-4 px-5'>
   <a href='https://t.me/Ashwaniarrora'>
+  <img src="//tsyndicate.com/api/v2/cpa/139835/pixel.gif"  />
 
   <img src={Btn} className='animate-wiggle'></img>
   </a>

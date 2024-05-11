@@ -23,7 +23,7 @@ const Homepage = () => {
 </div>
 <div className=' bg-white '>
 <Player autoPlay={true} playsInline fluid={true}>
-      <source src="./Images/Play.mp4" />
+      <source src={Play} />
     </Player>
 
 </div>

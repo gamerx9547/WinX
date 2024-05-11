@@ -38,7 +38,7 @@ const Homepage = () => {
     </div>
 
     {/* Mobile Background */}
-    <div className="block bg-black lg:hidden h-screen bg-contain z-10 bg-no-repeat" style={{backgroundImage: `url('./src/Images/mobileBg.png')`}}>
+    <div className="block bg-black lg:hidden h-screen bg-contain z-10 bg-no-repeat" style={{backgroundImage: `url('${bg}')`}}>
         {/* Content for mobile */}
         {/* <div className=' py-20'>
 
@@ -47,10 +47,10 @@ const Homepage = () => {
  
 </div>
 <div className=' py-10 px-5'>
-  <button>
+  <a href='https://t.me/Ashwaniarrora'>
 
   <img src={Btn} className='animate-wiggle'></img>
-  </button>
+  </a>
 
 </div>
 <div className=' bg-white '>

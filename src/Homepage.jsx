@@ -46,15 +46,15 @@ const Homepage = () => {
         <div className=' py-48 px-4'>
  
 </div>
-<div className=' py-10 px-5'>
+<div className=' py-4 px-5'>
   <a href='https://t.me/Ashwaniarrora'>
 
   <img src={Btn} className='animate-wiggle'></img>
   </a>
 
 </div>
-<div className=' bg-white '>
-<Player autoPlay={true} playsInline fluid={true}>
+<div className=''>
+<Player autoPlay={true} muted playsInline fluid={true}>
       <source src={Play} />
     </Player>
 

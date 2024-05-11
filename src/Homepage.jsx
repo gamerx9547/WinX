@@ -54,12 +54,12 @@ const Homepage = () => {
   </button>
 
 </div>
-<div className=' bg-white '>
+{/* <div className=' bg-white '>
 <Player autoPlay={true} playsInline fluid={true}>
       <source src={Play} />
     </Player>
 
-</div>
+</div> */}
 
 
        
